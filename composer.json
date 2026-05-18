@@ -1,0 +1,22 @@
+{
+  "name": "santi/module-hreflang",
+  "description": "Automatic hreflang tags for Magento 2 multi-store",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Santi\\Hreflang\\": ""
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "magento/framework": "*"
+  },
+  "version": "1.0.0"
+}
