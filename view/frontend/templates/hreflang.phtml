@@ -1,9 +1,0 @@
-<?php
-$links = $block->getHreflangLinks();
-
-foreach ($links as $link):
-?>
-<link rel="alternate"
-      hreflang="<?= $block->escapeHtmlAttr($link['hreflang']) ?>"
-      href="<?= $block->escapeUrl($link['url']) ?>" />
-<?php endforeach; ?>
